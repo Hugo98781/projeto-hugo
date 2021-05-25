@@ -1,0 +1,19 @@
+{
+  "name": "projeto-intermediario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-html-parser": "^3.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": "Foi criado o arquivo \"index.js\", logo em seguida foi dado so comandos \"express\", \"npm init\" para inicializar e criar os pacotes para poder usufruir da aplicaçã."
+}

@@ -1,1 +1,5 @@
-# projeto-hugo
+Foi criado o arquivo "index.js", logo em seguida foi dado so comandos "express", "npm init" para inicializar e criar os pacotes para poder usufruir da aplicaçã.
+
+No arquivo "index.js" foram feitas as declarações e requisição nessesarias para funcionamento da API, como express, axios, parser e declaração de porta local para uso. Logo em seguida foi criada a primeira rota no qual o nome e "rank" que quando feita a requisição iria acessar a pagina "https://battlefieldtracker.com/bfv/leaderboards/stats/origin/KdRatio?country=br&page=1" e extrair do arquivo HTML os dados de uma "table" e salvar essa tabela em uma variavel para assim em seguida poder pegar o tamanho dessa "table" e usar uma estrutura de repetição para poder extrair os dados e guardalos em um array e tratar os dados para poder filtrar e ordenar para em seguida poder mostar os dados ao cliente;
+
+Na segunda rota usa a mesma estruturação e formatação de dados apenas com um detalhe a mais, o detelha de busca especifica no rank, onde apartir do comando http://localhost:8080/consulta?busca="posição do rank" pode buscar por uma posição exprecifica do rank de jogadores.
